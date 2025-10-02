@@ -1,0 +1,29 @@
+{
+  "name": "n8n-free-templates",
+  "version": "1.0.0",
+  "description": "200+ Ready-to-Import n8n Workflows",
+  "scripts": {
+    "build": "node .github/scripts/generate-catalog.js",
+    "validate": "node .github/scripts/validate-json.js",
+    "dev": "npm run build && echo 'Build complete. Open public/index.html in your browser.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahiixx/n8n-free-templates.git"
+  },
+  "keywords": [
+    "n8n",
+    "automation",
+    "workflows",
+    "templates",
+    "ai",
+    "llm",
+    "rag"
+  ],
+  "author": "sahiixx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sahiixx/n8n-free-templates/issues"
+  },
+  "homepage": "https://github.com/sahiixx/n8n-free-templates#readme"
+}
