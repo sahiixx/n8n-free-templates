@@ -23,9 +23,9 @@ Free n8n templates to download
 |-------|--------------|
 | **Vector Stores** | Pinecone • Weaviate • Supabase Vector • Redis |
 | **Embeddings** | OpenAI • Cohere • Hugging Face |
-| **LLM Chat** | OpenAI GPT‑4(o) • Anthropic Claude 3 • Hugging Face Inference |
+| **LLM Chat** | OpenAI GPT‑4(o) • Anthropic Claude 3 • Hugging Face Inference |
 | **Memory** | Zep Memory • Window Buffer |
-| **Extras** | Slack alerts • Google Sheets logs • OCR • HTTP polling |
+| **Extras** | Slack alerts • Google Sheets logs • OCR • HTTP polling |
 
 ---
 
@@ -41,24 +41,56 @@ MASTER_README.md # ← you are here
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start
 
 ```bash
-git clone <https://github.com/wassupjay/n8n-free-templates.git>
+git clone https://github.com/sahiixx/n8n-free-templates.git
 # then in n8n:
 # Settings ▸ Import Workflows ▸ select any JSON
 # Open each node ▸ Credentials ▸ choose or create your account
 # Save & Activate ✅
 ```
 
+**🌐 Browse the catalog**: Visit the [live catalog website](https://sahiixx.github.io/n8n-free-templates/) to explore all templates with search functionality.
+
+---
+
+## 🏗️ Build & Deploy
+
+This repository includes automated build and deployment:
+
+- **Automatic validation** of all JSON templates on every push
+- **Catalog generation** with searchable web interface  
+- **GitHub Pages deployment** for easy browsing
+
+### Local Development
+
+```bash
+# Validate all JSON files
+npm run validate
+
+# Build the catalog website
+npm run build
+
+# Output will be in public/ directory
+```
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed information about the build and deploy system.
+
 ---
 
 ## 🤝 Contributing
+
 You can contribute by adding more templates!
 !!! Some of the templates are incomplete, you can be a contributor by completing it!!!
+
 PRs & issues welcome!  
 Request new templates, improve prompts, or add integrations.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
 Collabs welcome!
+
 ---
 
-_Made with ❤️ by Jay — “Automate everything, then automate the automation.”_
+_Made with ❤️ by Jay — "Automate everything, then automate the automation."_
